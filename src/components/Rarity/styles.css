@@ -1,0 +1,44 @@
+.rar-det-container > div {
+  background-color: rgba(255, 255, 255, 0.801);
+  width: 265px;
+  min-height: 420px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.rarity {
+  background-color: #151515;
+  max-width: 1140px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.rarity h1 {
+  color: white;
+  margin: 0;
+  font-size: 48px;
+  margin-bottom: 5vh;
+}
+.rar-det-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.rar-det-container > div span {
+  margin: 0 5px;
+}
+.rar-det-container > div span:first-child {
+  color: rgb(12, 58, 184);
+}
+.rar-det-container > div span:nth-child(2) {
+  color: rgb(170, 93, 6);
+}
+.rar-det-container > div h3 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+.rar-det-container > div > div {
+  text-align: left;
+  color: #000;
+  display: flex;
+  margin-left: 10px;
+}

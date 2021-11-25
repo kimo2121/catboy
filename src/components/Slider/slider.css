@@ -1,0 +1,10 @@
+.slider-component {
+  color: white;
+  margin: -5px 0;
+}
+
+.slider-component img {
+  max-width: 200px;
+  width: 100%;
+  object-fit: contain;
+}
