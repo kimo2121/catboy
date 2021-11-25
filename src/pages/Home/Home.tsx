@@ -73,9 +73,9 @@ const Home: React.FC = () => {
             unique to establish exclusivity.
           </p>
         </div> */}
-        {/* <button className="connect-wallet" onClick={loginMetaMask}>
+        <button className="connect-wallet" onClick={loginMetaMask}>
           {loginStatus ? truncateWalletString(account) : "CONNECT WALLET"}
-        </button> */}
+        </button>
         {loginStatus && <Mint />}
         <div className="set-limit">
           {/* <p>
